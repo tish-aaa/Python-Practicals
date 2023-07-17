@@ -1,3 +1,6 @@
+# Question:
+# Write a function to check the input value is Armstrong and also write the function for Palindrome.
+
 def armstrong(n):
    a=n
    c=0

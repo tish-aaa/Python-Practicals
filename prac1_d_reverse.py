@@ -1,3 +1,7 @@
+# Question:
+# Write a function that reverses the user defined value.
+
+
 n=int(input("Enter the number:"))
 rev=0
 while n != 0:

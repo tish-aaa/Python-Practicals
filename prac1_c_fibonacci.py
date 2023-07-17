@@ -1,3 +1,6 @@
+# Question:
+# Write a program to generate the Fibonacci series.
+
 n=int(input("Enter the limit:"))
 n1=0
 n2=1
