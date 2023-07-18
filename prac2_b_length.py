@@ -1,7 +1,7 @@
 # Question:
 # Define a function that computes the length of a given list or string. 
 
-
+#without using len() function
 def leng(a):
     count=0
     for i in a:
