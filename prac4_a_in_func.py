@@ -1,6 +1,11 @@
+# Question:
+# Write a program that takes two lists and returns True if they have at least one common member.
 
+#manual lists 
 #list1=[1,2]
 #list2=[1,2,4,5,6,7]
+
+#user-defined inputs
 list1=[]
 list2=[]
 
