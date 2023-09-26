@@ -23,34 +23,40 @@ class Numbers:
     @staticmethod
     def subtract(b, c):
         return b-c
+    
+
+    # (PROPERTY) a method called value which returns a tuple containing the values of x and y
 
     @property
     def value(self):
-        return self.x, self.y
+        t = (self.x, self.y)
+        return t
 
-    # Create a setter and a deleter for value.
+    # Create a setter and a getter method for value.
+
+    def getX(self):
+        return self.x
 
     def setX(self, value):
         self.x = value
 
-    def deleteX(self):
-        del self.x
+    def getY(self):
+        return self.y
 
     def setY(self, value):
         self.y = value
 
-    def deleteY(self):
-        del self.y
-
 
 # test the class.
 num = Numbers(5, 6)
-print(num.add())
-print(num.multiply(2))
-print(num.subtract(2, 4))
-print(num.value)
+print("Numbers: "+str(num.x)+" & "+str(num.y))
+print("Value of MULTIPLIER: "+str(num.MULTIPLIER))
+print("Sum: "+str(num.add()))
+print("Product(2): "+str(num.multiply(2)))
+print("Difference(2,4): "+str(num.subtract(2, 4)))
+print("Original Values: "+str(num.value))
 num.setX(2)
 num.setY(5)
-print(num.value)
-num.deleteX()
-num.deleteY()
+num.getX()
+num.getY()
+print("Manipulated Values: "+str(num.value))
