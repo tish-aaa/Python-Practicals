@@ -11,7 +11,7 @@ class Numbers:
     MULTIPLIER = 5
 
     def __init__(self, x, y):
-        self.x = xf
+        self.x = x
         self.y = y
 
     def add(self):
